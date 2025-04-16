@@ -20,6 +20,9 @@
                 extend: {
                   colors: {
                     clifford: '#da373d',
+                  },
+                  fontFamily: {
+                    'manrope': ['Manrope', 'sans-serif'],
                   }
                 }
               }
@@ -27,7 +30,7 @@
           </script>
         <!-- Tailwind CSS CDN -->
 </head>
-<body>
+<body class="font-manrope">
     <!-- Main section start -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- Header section start -->
@@ -47,7 +50,7 @@
                     <img src="images/banner.png" alt="Banner iamges">
                 </div>
                 <!-- card start -->
-                 <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-128 lg:left-38">
+                 <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-18 md:top-80 md:left-128 lg:left-38">
                     <i class="fa-solid fa-star text-2xl text-amber-500"></i>
                             <div class="ml-2">
                                 <h2 class="lg:text-2xl font-bold">5.00</h2>
@@ -160,7 +163,7 @@
                 <!-- text section start -->
                 <div class="flex justify-center items-center overflow-hidden">
                     <div class="text-section w-5/6">
-                        <h1 class="text-4xl font-bold mb-5 mt-10">Meet Our Super Clients</h1>
+                        <h1 class="text-2xl md:text-4xl font-bold mb-5 mt-10">Meet Our Super Clients</h1>
                         <p class="mb-5 text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                         <button class="bg-white text-orange-700 px-3 py-2 rounded-lg">Show All</button>
                      </div>
